@@ -1,12 +1,12 @@
 from setuptools import setup
 
 setup(
-    name="libcmaes",
-    version="0.1",
+    name="cmaes",
+    version="0.9.5",
     author="beniz",
     author_email="",
     description=(""),
-    license="BSD",
+    license="LGPLv3",
     keywords="",
     url="",
     zip_safe=False,  # the package can run out of an .egg file
@@ -22,6 +22,6 @@ setup(
                  'Operating System :: MacOS'],
     platforms='any',
     include_package_data=True,
-    package_data={"lcmaes": ["*"]},
-    packages=['lcmaes']
+    package_data={"cmaes": ["*"]},
+    packages=['cmaes']
 )
