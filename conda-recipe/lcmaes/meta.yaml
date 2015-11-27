@@ -1,16 +1,21 @@
 package:
   name: lcmaes 
-  version: 0.2.14
+  version: 0.9.2
 
 source:
+    git_tag: 9ccc5ca4d59b4fd287553c80aec42c53348d8a98
     git_url: https://github.com/mehdidc/libcmaes
 
 requirements:
     build:
         - python
+        - numpy
+        - boost-python
     run:
         - python
+        - numpy
+        - boost-python
 
 about:
   home: https://github.com/beniz/libcmaes
-  license: BSD
+  license: LGPLv3
