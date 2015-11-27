@@ -11,10 +11,10 @@ $(TARGET).o: $(TARGET).cc
 all:lcmaes.so
 
 install: all
-	$(INSTALL) lcmaes.so lcmaes/_lcmaes.so
+	$(INSTALL) lcmaes.so cmaes/lcmaes.so
 
 uninstall-hook:
-	rm lcmaes/_lcmaes.so
+	rm cmaes/lcmaes.so
 
 clean:
 	rm *.so *.o
